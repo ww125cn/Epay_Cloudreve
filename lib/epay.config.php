@@ -4,13 +4,13 @@
  */
 
 //支付接口地址
-$epay_config['apiurl'] = 'https://pay.ww125.cn/';
+$epay_config['apiurl'] = '';
 
 //商户ID
-$epay_config['pid'] = '140269060';
+$epay_config['pid'] = '';
 
 //商户密钥
-$epay_config['key'] = 'q1F1N68FdF6ayM8zwbad1cDF69Zaf7f8';
+$epay_config['key'] = '';
 
 //数据库账号
 $epay_config['user'] = 'root';
@@ -28,7 +28,8 @@ $epay_config['name'] = 'pan_paylog';
 $epay_config['user'] = 'pan_paylog';
 
 //异步通知
-$epay_config['notify_url'] = "http://ai.ww125.cn/notify_url.php";
+$epay_config['notify_url'] = "http://xxx.cn/notify_url.php";
 
 //跳转同步通知
-$epay_config['return_url'] = "http://ai.ww125.cn/return_url.php";
+
+$epay_config['return_url'] = "http://xxx.cn/return_url.php";
